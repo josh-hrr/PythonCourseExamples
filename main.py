@@ -71,11 +71,16 @@ for i in k:
 for i in v:
   print(i)
 
+#course challenge
 
-myNewList = ['GT', 'MX', 'CANADA', 'BRASIL']
-
- 
-
+myNewList = ['GT', 'MX', 'CANADA', 'BRASIL'] 
+myNewList.append('New') 
+print(myNewList) 
+popIndex = myNewList.pop(1)
+print(popIndex)
+print(myNewList) 
+myNewList.insert(2, 'Random')
+print(myNewList)
 
 
 
