@@ -119,3 +119,31 @@ if(int(result2) > 0):
 print("Toppings enter: ", chosenList, " Note: if you do not see the toppings enter it means you did not choose the ones listed at the beginning therefore they do not exist")
 print("Total: ", " $", counter)
 
+number = 4
+
+#odd or even
+
+if(number % 2 == 0):
+  print('even')
+else:
+  print('odd')
+
+#assign a grade to a subject
+
+mySubjects = ['Math', 'Physics', 'Chemistry']
+mySum = 0
+
+for i in mySubjects:
+  grade = int(input('enter grade for '+ (i) + ' : ')) 
+  mySum = mySum + grade 
+
+print("total sum of the past 3 grades", str(mySum))
+
+print("this is the average: ", (mySum / len(mySubjects)))
+
+#multiplication table
+
+
+
+
+
