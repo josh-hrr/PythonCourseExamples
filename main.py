@@ -40,3 +40,35 @@ for item in myInput:
       vowelsList.append(item)
 
 print(len(vowelsList))
+
+#testing SET 
+
+employees = {}
+
+for i in range(2):
+  name = input('Enter name: ')
+  salary = input('Enter salary')
+  employees[name] = salary
+
+print(employees.get(name, -1))
+
+#skip the multiple of 10
+
+for i in range(100):
+  if(i % 10 == 0):
+    print(i)
+
+
+#prime numbers or not
+
+n=int(input())
+
+primeflag=True
+
+for i in range(2,n-1):
+  if(n % i == 0): 
+    primeflag=False 
+    if(primeflag): 
+      print("prime no") 
+    else: 
+      print("not prime no")
