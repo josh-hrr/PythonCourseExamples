@@ -210,6 +210,8 @@ for i in range(100):
     print(i)
 
 
+
+    
 #prime numbers or not
 
 n=int(input())
